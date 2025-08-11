@@ -15,10 +15,10 @@ A simple informational website created using HTML and CSS. Built for my CIS 110 
 [View live webpage](https://uo-cit-drewlesh.github.io/CIS-110-FluencyWithInfoTech/Project1/)
 
 ## Project Structure
-CIS-110-FluencyWithInfoTech/
-  Project1/
-    index.html
-    blackgoose.png  
+CIS-110-FluencyWithInfoTech/ <br>
+  Project1/ <br>
+    index.html <br>
+    blackgoose.png <br> 
 
 ## Reflection
 This project was my first introduction to web development — I learned how to structure a webpage, incorporate images, and organize content for clarity and visual appeal.
