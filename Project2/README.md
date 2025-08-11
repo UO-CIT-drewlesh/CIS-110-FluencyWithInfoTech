@@ -19,6 +19,17 @@ A recipe website created for my CIS 110 class. This project showcases my abili
 [View live webpage](https://uo-cit-drewlesh.github.io/CIS-110-FluencyWithInfoTech/Project2/)
 
 ## Project Structure
+CIS-110-FluencyWithInfoTech/
+  Project2/
+    images/
+    recipes/
+      salmon.html
+      tapenade.html
+      pastas/
+        couscous.html
+        linguine.html
+    about.html
+    index.html
 
 ## Reflection
 This project allowed me to practice creating a cohesive, multi-page website. I focused on clear navigation.
