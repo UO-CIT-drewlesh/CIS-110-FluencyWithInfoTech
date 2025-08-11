@@ -1,22 +1,15 @@
 # Project 2 – Jen’s Kitchen
 
-A recipe website created for my CIS 110 class. This project showcases my ability to structure and style a multi-page website using HTML and CSS.
+This project allowed me to deepen my understanding of web development by creating a multi-page website that showcases my favorite recipes and culinary resources.
 
-## Features
-- **Homepage** with a welcoming introduction and site navigation
-- **Recipe pages** for:
-  - Tapenade (Olive Spread)
-  - Garlic Salmon
-  - Linguine with Clam Sauce
-  - Couscous with Peas and Mint
-- **External links** to reputable food resources like The Food Network and Epicurious
+## Skills Developed
+- **HTML Structure**: Gained proficiency in organizing content using semantic HTML elements.
+- **CSS Styling**: Enhanced my ability to apply styles for layout and design consistency across pages.
+- **Navigation Design**: Implemented clear and intuitive navigation to improve user experience.
 
 ## Technologies Used
-- HTML5 for semantic markup
-- CSS for layout and styling
+- HTML5
+- CSS3
 
 ## Live Demo
 [View live webpage](https://uo-cit-drewlesh.github.io/CIS-110-FluencyWithInfoTech/Project2/)
-
-## Reflection
-This project allowed me to practice creating a cohesive, multi-page website. I focused on clear navigation.
