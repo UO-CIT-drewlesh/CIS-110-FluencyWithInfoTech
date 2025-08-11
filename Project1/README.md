@@ -18,6 +18,4 @@ A simple informational website created using HTML and CSS. Built for my CIS 110 
 CIS-110-FluencyWithInfoTech/
   Project1/
     index.html
-    images/ (logos and pics)
-    style.css
-  
+    blackgoose.png  
