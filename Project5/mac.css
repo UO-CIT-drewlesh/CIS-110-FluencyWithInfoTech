@@ -1,0 +1,174 @@
+/*Page 1 Stylesheet*/
+@import url(rwd.css);
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body{
+    font-family: Georgia, serif;
+    font-size: 100%;
+    line-height: 175%;
+    margin: 0;
+    background-image: url(images/Mac_background.jpg);
+    background-size: contain;
+    background-position: center;
+    background-position-y: 0;
+    flex-flow: row wrap;
+}
+
+/* link styles */
+a:link { 
+    color: lightskyblue; 
+}
+a:focus, a:hover { 
+    color: #F9AB33; 
+}
+a {
+    color: crimson;
+}
+
+/* Header Styles */
+header {
+    margin-top: .3em;
+    text-align: center;
+}
+header h1 {
+    color: lightskyblue;
+    margin: auto;
+    font-family: Lucida sans-serif;
+    font-size: 4em;
+    letter-spacing: 10px;
+    text-shadow: 10px 10px 4px whitesmoke;
+}
+header h1 img {
+    width: 300px;
+    margin: 1em auto;
+    
+    display: block;  
+}
+header img {
+    border: skyblue groove  1em;
+    box-shadow: whitesmoke 10px 6px 10px;
+}
+h1 {
+    border: 12px solid skyblue;
+}
+/* Nav Styles */
+nav ul {
+    margin: .1%;
+    padding: .1%;
+    list-style-type: none;
+    display: flex;
+    flex-wrap:wrap;
+}
+nav ul li {
+    font-size: 1em;
+	text-transform: uppercase;
+	letter-spacing: .3em;
+	flex: 1 1 50%;
+}
+nav ul li a {
+    text-decoration: none;
+    color: lightskyblue;
+    display: block; 	
+    border: 2px solid; 
+    padding: .2em .8em; 	
+    border-radius: 1em; 
+    margin: .2em; 
+    background-color: black;
+
+}
+
+/* Main styles */
+main {
+    color: wheat;
+    font-size: 1em;
+    margin: 3%;
+    text-align: center;
+}
+main h2 {
+    color: #F9AB33;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: 5px solid lightskyblue;
+    border-radius: 25%;
+    background-image: linear-gradient( 130deg, black, lightskyblue);
+    font-size: large; 
+    margin: .1em;
+    padding: .3em;
+}
+main p {
+    color: snow;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    background-color: rgba(0, 0, 0, 0.673);
+    border: 12px groove lightskyblue;
+}
+
+
+
+
+/* Link Styles */
+
+/* Extra Styles*/
+em {
+    color: skyblue;
+    font-weight: larger;
+}
+
+/* media screen styles*/
+@media screen and (min-width: 950px) {
+
+    header {
+        font-size:100% larger;
+        font-family: Georgia, serif;
+        font-weight: 3px;
+    
+    }
+    
+    main {
+        flex: none;
+    }
+
+    h2 {
+        font-size: 3em;
+    }
+    
+    p {
+        font-size: 1.8em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+        letter-spacing: 3px;
+    }
+}
+@media screen and (min-width: 1350px) {
+    header nav {
+        font-size: 4em;
+        flex: none;
+        margin: 2em;
+    }
+    main {
+        margin: 3em;
+        padding: 3em;
+    }
+    main h2 {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: oblique;
+        font-size: 5em;
+    }
+    p {
+        font-family: monospace;
+        font-size: 2em;
+        margin: 3em;
+        padding: 4em;
+
+        word-spacing: .5em;
+    }
+    #img1 {
+        width: 1000px;
+
+    }
+    em {
+        text-decoration: underline;
+    }
+}
