@@ -19,3 +19,6 @@ CIS-110-FluencyWithInfoTech/
   Project1/
     index.html
     blackgoose.png  
+
+## Reflection
+This project was my first introduction to web development — I learned how to structure a webpage, incorporate images, and organize content for clarity and visual appeal.
